@@ -1,0 +1,18 @@
+.modules {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px;
+}
+
+.modules a {
+  text-decoration: none;
+}
+
+.module-title {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  padding: 8px;
+  font-weight: 900;
+}
