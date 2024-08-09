@@ -1,6 +1,7 @@
 .header {
   background-color: var(--color-dark);
   padding: 8px;
+  z-index: 1;
 }
 
 .brand {
