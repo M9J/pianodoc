@@ -32,11 +32,6 @@ const PianoModel25Keys = KeybedWithLabel("", [
   OneKeyBuilder({}),
 ]);
 
-const PianoModel12Keys = KeybedWithLabel("", [
-  ThreeKeyBuilder({ hasExtension: true }),
-  FourKeyBuilder({}),
-]);
-
 export default function Modules() {
   return (
     <>
