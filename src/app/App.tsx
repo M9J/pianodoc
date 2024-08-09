@@ -5,7 +5,7 @@ import Chords from "./pages/chords/Chords";
 import Home from "./pages/Home";
 import Keys from "./pages/keys/Keys";
 import Models from "./pages/models/Models";
-import Modules from "./pages/modules/Modules";
+import Modules from "./pages/Modules_bkp/Modules";
 import PageNotFound from "./pages/PageNotFound";
 import Scales from "./pages/scales/Scales";
 
