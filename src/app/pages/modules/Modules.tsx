@@ -75,7 +75,7 @@ export default function Modules() {
             <div className="app-module-thumbnail">
               <img
                 className="app-module-icon"
-                src="pianodoc/assets/icons/info.png"
+                src="assets/icons/info.png"
                 alt="information icon"
               />
             </div>
