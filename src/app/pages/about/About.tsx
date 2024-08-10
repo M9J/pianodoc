@@ -24,7 +24,7 @@ export default function About() {
           <div className="about-column">
             <img
               className="about-icon"
-              src="./info.png"
+              src="assets/icons/info.png"
               alt="information icon"
             />
           </div>
