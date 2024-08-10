@@ -1,0 +1,14 @@
+.header {
+  background-color: var(--color-dark);
+  padding: 8px;
+  z-index: 1;
+}
+
+.brand {
+  color: var(--color-light);
+  letter-spacing: 2px;
+}
+
+.header a {
+  text-decoration: none;
+}

@@ -1,0 +1,80 @@
+.about-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-dark);
+  position: relative;
+}
+
+.about-container-background-container {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+  background-color: var(--color-light);
+}
+
+.about-container-background-image {
+  user-select: none;
+  pointer-events: none;
+  transform: scale(45) rotate(45deg) scaleY(45);
+  transform-origin: left;
+  display: block;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.25;
+}
+
+.about-information-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 640px;
+  background-color: var(--color-light);
+  padding: 24px;
+  box-shadow: 4px 8px 24px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+.about-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.about-row {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.about-column {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-name {
+  font-weight: 900;
+  font-size: 120%;
+  color: var(--color-dark);
+}
+
+.about-version,
+.about-developer {
+  font-size: 80%;
+}
+
+.about-property {
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.about-property-value {
+  text-align: left;
+  margin-bottom: 8px;
+}
