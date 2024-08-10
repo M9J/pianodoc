@@ -24,7 +24,7 @@ export default function About() {
           <div className="about-column">
             <img
               className="about-icon"
-              src="pianodoc/assets/pianodoc/pianodoc.png"
+              src={process.env.PUBLIC_URL + "/assets/pianodoc/pianodoc.png"}
               alt="information icon"
             />
           </div>
