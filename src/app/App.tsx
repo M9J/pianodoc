@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./pages/about/About";
 import Chords from "./pages/chords/Chords";
@@ -11,7 +11,7 @@ import Scales from "./pages/scales/Scales";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />}>
           <Route index path="/" element={<Modules />} />
@@ -24,7 +24,7 @@ function App() {
         </Route>
         <Route path="*" element={<PageNotFound />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
