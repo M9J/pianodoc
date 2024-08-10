@@ -75,7 +75,7 @@ export default function Modules() {
             <div className="app-module-thumbnail">
               <img
                 className="app-module-icon"
-                src="assets/icons/info.png"
+                src={process.env.PUBLIC_URL + "/assets/icons/info.png"}
                 alt="information icon"
               />
             </div>
