@@ -79,7 +79,7 @@ export default function Modules() {
                 alt="information icon"
               />
             </div>
-            <div className="app-module-title">About PianoDoc</div>
+            <div className="app-module-title">About</div>
           </div>
         </Link>
       </div>

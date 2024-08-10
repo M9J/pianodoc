@@ -2,13 +2,37 @@
   background-color: var(--color-dark);
   padding: 8px;
   z-index: 1;
+  display: flex;
+  align-items: center;
 }
 
 .brand {
   color: var(--color-light);
   letter-spacing: 2px;
+  font-weight: 1000;
 }
 
 .header a {
   text-decoration: none;
+}
+
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-right: 10px solid #fff;
+  border-bottom: 5px solid transparent;
+  margin-right: 8px;
+}
+
+.homepage-link {
+  display: flex;
+  align-items: center;
+}
+
+.current-module-name {
+  padding: 0px 8px;
+  border-left: 1px solid var(--color-light);
+  color: var(--color-light);
+  margin-left: 8px;
 }
