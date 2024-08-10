@@ -1,5 +1,5 @@
-const COLOR_PINK_LEGACY = "#f8a";
-const COLOR_BLUE_LEGACY = "#8af";
+// const COLOR_PINK_LEGACY = "#f8a";
+// const COLOR_BLUE_LEGACY = "#8af";
 const COLOR_PINK = "#FFC3D4";
 const COLOR_BLUE = "#C3D4FF";
 const KEY_WHITE_ACTIVE_COLOR = COLOR_BLUE;
