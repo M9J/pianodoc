@@ -28,7 +28,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0.25;
 }
 
 .about-information-container {
@@ -37,7 +36,7 @@
   max-width: 640px;
   background-color: var(--color-light);
   padding: 24px;
-  box-shadow: 4px 8px 24px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-dark);
   z-index: 1;
 }
 
